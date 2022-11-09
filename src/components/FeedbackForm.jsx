@@ -1,6 +1,7 @@
 import React from "react";
 import funny from "../assets/images/funny.jpg";
 import SelectRating from "./SelectRating";
+import Input from "./Input";
 
 function FeedbackForm() {
   return (
@@ -11,7 +12,7 @@ function FeedbackForm() {
         </div>
       </div>
       <SelectRating />
-      <h1>FeedbackForm</h1>
+      <Input />
     </div>
   );
 }
