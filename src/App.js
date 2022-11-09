@@ -1,9 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
 import FeedbackForm from "./components/FeedbackForm";
+import Header from "./components/Header";
 
 function App() {
-  return <FeedbackForm />;
+  return (
+    <>
+      <Header />
+      <div class="container">
+        <FeedbackForm />
+      </div>
+    </>
+  );
 }
 
 export default App;
